@@ -1,0 +1,18 @@
+L:\Projects\Game Patcher\Game Patcher\bin\Debug\Game Patcher.exe.config
+L:\Projects\Game Patcher\Game Patcher\bin\Debug\Game Patcher.exe
+L:\Projects\Game Patcher\Game Patcher\bin\Debug\Game Patcher.pdb
+L:\Projects\Game Patcher\Game Patcher\obj\Debug\Game Patcher.csprojResolveAssemblyReference.cache
+L:\Projects\Game Patcher\Game Patcher\obj\Debug\Game_Patcher.Form1.resources
+L:\Projects\Game Patcher\Game Patcher\obj\Debug\Game_Patcher.Properties.Resources.resources
+L:\Projects\Game Patcher\Game Patcher\obj\Debug\Game Patcher.csproj.GenerateResource.Cache
+L:\Projects\Game Patcher\Game Patcher\obj\Debug\Game Patcher.exe
+L:\Projects\Game Patcher\Game Patcher\obj\Debug\Game Patcher.pdb
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\bin\Debug\Game Patcher.exe.config
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\obj\Debug\Game Patcher.exe
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\obj\Debug\Game Patcher.pdb
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\bin\Debug\Game Patcher.exe
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\bin\Debug\Game Patcher.pdb
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\obj\Debug\Game Patcher.csprojResolveAssemblyReference.cache
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\obj\Debug\Game_Patcher.Form1.resources
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\obj\Debug\Game_Patcher.Properties.Resources.resources
+C:\Users\davidk\Desktop\New folder\Source\Game Patcher\obj\Debug\Game Patcher.csproj.GenerateResource.Cache

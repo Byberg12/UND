@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dfa825770c5486b9d95384bc7f7a1a, type: 3}
+  m_Name: TodoList
+  m_EditorClassIdentifier: 
+  owners:
+  - name: Normal
+    color: {r: 0, g: 0, b: 0, a: 1}
+    index: 0
+  - name: Urgent
+    color: {r: 1, g: 0, b: 0, a: 1}
+    index: 1
+  - name: In Progress
+    color: {r: 0, g: 0.33793116, b: 1, a: 1}
+    index: 2
+  - name: Note
+    color: {r: 0.34664127, g: 0.5294118, b: 0.1712803, a: 1}
+    index: 3
+  - name: Note
+    color: {r: 0.34664127, g: 0.5294118, b: 0.1712803, a: 1}
+    index: 3
+  items:
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Add loading screen on worldEnter
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get movement prediction added
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get Character vital GUI up and working!
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get splines added for camera on character creation and selection
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get "general" GUI up and working
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get combat system started
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get inventory started
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 0, g: 0, b: 0, a: 1}
+      index: 0
+    task: Get chat started
+    isComplete: 0

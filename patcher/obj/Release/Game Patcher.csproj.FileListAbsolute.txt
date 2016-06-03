@@ -1,0 +1,9 @@
+G:\Projects\UND\patcher\bin\Release\Game Patcher.exe.config
+G:\Projects\UND\patcher\bin\Release\Game Patcher.exe
+G:\Projects\UND\patcher\bin\Release\Game Patcher.pdb
+G:\Projects\UND\patcher\obj\Release\Game Patcher.csprojResolveAssemblyReference.cache
+G:\Projects\UND\patcher\obj\Release\Game_Patcher.Form1.resources
+G:\Projects\UND\patcher\obj\Release\Game_Patcher.Properties.Resources.resources
+G:\Projects\UND\patcher\obj\Release\Game Patcher.csproj.GenerateResource.Cache
+G:\Projects\UND\patcher\obj\Release\Game Patcher.exe
+G:\Projects\UND\patcher\obj\Release\Game Patcher.pdb
