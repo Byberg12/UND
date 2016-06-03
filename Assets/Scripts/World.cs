@@ -93,7 +93,8 @@ public class World : MonoBehaviour
         characterPrefab.transform.eulerAngles = new Vector3(0, rot, 0);
         Character character = characterPrefab.AddComponent<Character>();
         character.netCharacter = true;
-       
+        character._pos = pos;
+
         character.SetName(name);
         AddCharacter(characterPrefab.transform);
     }

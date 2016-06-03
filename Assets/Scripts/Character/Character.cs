@@ -107,7 +107,14 @@ public class Character : MonoBehaviour
             if (animState == CharacterMovement.AnimState.strafeLeft)
                 anim.SetFloat("sideways", -6);
             if (animState == CharacterMovement.AnimState.run)
+            {
                 anim.SetFloat("forward", 8);
+                transform.position = Vector3.MoveTowards(transform.position, _pos, 8 * Time.deltaTime);
+            }
+            else
+            {
+                transform.position = Vector3.MoveTowards(transform.position, _pos, 6 * Time.deltaTime);
+            }
 
         }
     }

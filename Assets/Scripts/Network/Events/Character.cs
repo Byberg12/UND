@@ -33,7 +33,8 @@ namespace Events
             Debug.Log("In - " + data);
 
             Transform netCharacter = GameObject.Find(data["name"].str).transform;
-            netCharacter.position = new Vector3(data["posX"].f, data["posY"].f, data["posZ"].f);
+            netCharacter.GetComponent<global::Character>()._pos = new Vector3(data["posX"].f, data["posY"].f, data["posZ"].f);
+            //netCharacter.position = new Vector3(data["posX"].f, data["posY"].f, data["posZ"].f);
             netCharacter.eulerAngles = new Vector3(0, data["rot"].f, 0);
             netCharacter.GetComponent<global::Character>().animState = (CharacterMovement.AnimState)((int)data["a"].n);
         }
