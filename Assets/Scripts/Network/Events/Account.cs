@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using SocketIO;
+using System;
 
 namespace Events
 {
@@ -18,6 +19,7 @@ namespace Events
             Network.AddListener("account:onLogout", OnLogout);
             Network.AddListener("account:onRequestClassesRaces", OnRequestClassesRaces);
             Network.AddListener("account:onCreateCharacter", OnCreateCharacter);
+            Network.AddListener("account:onCharacterExit", OnCharacterExit);
         }
 
         #region OnLogin Handlers
@@ -270,6 +272,39 @@ namespace Events
             Debug.Log("In - " + data);
 
             FindObjectOfType<GuiCharacterCreateWindow>().CreateCharacter(data["characterExists"].b);
+        }
+        #endregion
+
+        #region OnCharacterExit Handlers
+        public static void OnCharacterExit(JSONObject data = null)
+        {
+            string cmd = "account:onCharacterExit";
+            if (data == null)
+            {
+                Network.Send(cmd);
+            }
+            else
+            {
+                Debug.Log("Out - " + data);
+                Network.Send(cmd, data);
+            }
+        }
+        private void OnCharacterExit(SocketIOEvent e)
+        {
+            JSONObject data = e.data;
+            Debug.Log("In - " + data);
+
+            string name = data["name"].str;
+            try {
+                Destroy(GameObject.Find(name));
+            }
+            catch (Exception execption)
+            {
+                Debug.Log(execption);
+            }
+
+
+
         }
         #endregion
 
