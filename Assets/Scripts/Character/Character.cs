@@ -15,7 +15,7 @@ public class Character : MonoBehaviour
     public int _level;
     public Vector3 _pos;
     public float _rot;
-    private float tickTimer = 0.1f;
+    private float tickTimer = 0.25f;
     private float currentTick;
     private bool inGame;
     public bool netCharacter = false;
@@ -106,6 +106,7 @@ public class Character : MonoBehaviour
                 anim.SetFloat("sideways", 6);
             if (animState == CharacterMovement.AnimState.strafeLeft)
                 anim.SetFloat("sideways", -6);
+
             if (animState == CharacterMovement.AnimState.run)
             {
                 anim.SetFloat("forward", 8);
